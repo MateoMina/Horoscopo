@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "user",
+    "userPass": "user",
+    "perfil": "user"
+  },
+  {
+    "userId": "cliente",
+    "userPass": "cliente",
+    "perfil": "user"
+  },
+  {
+    "userId": "mateo",
+    "userPass": "mateo3",
+    "perfil": "user"
+  },
+  {
+    "userId": "nando",
+    "userPass": "nando",
+    "perfil": "user"
+  }
+]
