@@ -5,6 +5,7 @@ const validateUser = (event) => {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password })
     })
+
     .then(res => res.json())
     .then(responseData => {
         if (responseData.resultado === 'user') {
@@ -19,7 +20,7 @@ const validateUser = (event) => {
 
 const changePassword = (event) => {
     event.preventDefault();
-    fetch(`https://proyecthoroscopoapi.vercel.app/v1/signos/newpass`, {  // Reemplazado con la URL de Vercel
+    fetch(`https://proyecthoroscopoapi.vercel.app/v1/signos/newpass`, {  // hecho Reemplazado con la URL de Vercel
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, password, newPassword })
