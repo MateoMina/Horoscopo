@@ -1,3 +1,4 @@
+
 const validateUser = (event) => {
     event.preventDefault();
     fetch(`https://proyecthoroscopoapi.vercel.app/v1/signos/login`, {  // Reemplazado con la URL de Vercel
